@@ -1,8 +1,18 @@
 # dcs-charts
 
-## Aircraft Radar Detection Ranges
+A central repository for all of my DCS charts, if you want notifications when new versions are released create a Github account and click the watch button in the top right corner of the page:
 
-### Change Summary
+![image](https://user-images.githubusercontent.com/8382945/210178949-51f73346-8842-42b4-ae86-75b22b656757.png)
+
+# Aircraft Radar Detection Ranges
+
+## Chart Description/Methodology
+
+A chart showing the detection ranges of all air to air radars in DCS, all values are hand tested with the conditions listed at the top of the chart, I wrote a script to give me a [realtime debug window](https://cdn.discordapp.com/attachments/287928410687406080/1035942996622979082/unknown.png) showing me the target aircraft ranges and lookdown angles so I can test them all quickly without having to open the F10 map and use a ruler.
+
+Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extra level of complication, to measure those I have an [array of 10 aircraft flying directly towards me](https://cdn.discordapp.com/attachments/287928410687406080/1035943238256836628/unknown.png) while I'm in active pause, as they get closer I wait until I detect 1%, 50% and 100% of jets per sweep and record those ranges. All target aircraft have no payload/stores and fly at an aspect angle of 180 degrees (Directly head to head)
+
+## Change Summary
 
 * F-15C radar correction is in 🎉 In RWS HPRF it has gained over 20nmi range which now puts it just shy of the F-14 Tomcat's RWS
 
@@ -12,9 +22,9 @@
 
 ![Aircraft Radar Detection Ranges](Aircraft%20Radar%20Detection%20Ranges/Quaggles%20Aircraft%20Radar%20Detection%20Ranges%202.8.0.32066.png)
 
-## Aircraft Radar Lookdown Detection Penalties
+# Aircraft Radar Lookdown Detection Penalties
 
-### Change Summary
+## Change Summary
 
 There has been a lot of discussion about lookdown penalties recently so I thought I'd test it all and share my results so the discussion goes beyond anecdotal experiences
 
@@ -24,7 +34,7 @@ JF-17 also has a pretty sharp penalty in RWS HPRF past 2.5° dropping detection 
 
 ![Aircraft Radar Detection Ranges](Aircraft%20Radar%20Lookdown%20Penalties/Quaggles%20Aircraft%20Radar%20Lookdown%20Detection%20Penalties%202.7.16.28157.png)
 
-## Aircraft RCS and IR Values
+# Aircraft RCS and IR Values
 
 Values gathered from https://github.com/Quaggles/dcs-lua-datamine
 
