@@ -23,11 +23,10 @@ Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extr
 ## Changelog/Summary
 
 * F-15C radar correction is in 🎉 In RWS HPRF it has gained over 20nmi range which now puts it just shy of the F-14 Tomcat's RWS
-
 * F-14's new AGC trace line now allows RIOs to spot targets that have not yet exceeded the return threshold to classify them as a target, by looking for spikes in the AGC line above the background noise I spotted a Flanker 30% farther than waiting for it to become a brick in PD Search
-
 * After my last chart but prior to DCS 2.8 the Mirage 2000C radar had a minor reduction of detection range. This is most noticeable in the RWS Unfiltered (3-6nmi reduction)
 
+(Click image for fullscreen)
 ![image](https://user-images.githubusercontent.com/8382945/210195335-8f7fad97-9655-4405-be0b-913922ea386a.png)
 
 # Aircraft Radar Lookdown Detection Penalties
@@ -40,10 +39,12 @@ All ED modules have a massive penalty that will come into effect around 1.5° an
 
 JF-17 also has a pretty sharp penalty in RWS HPRF past 2.5° dropping detection range by ~20% and a minor MPRF penalty that's only noticeable past 7.5°, Velocity Scan has no penalties. Most other modules have either 0 or minor penalties that won't be particularly noticeable in real world gameplay.
 
+(Click image for fullscreen)
 ![image](https://user-images.githubusercontent.com/8382945/210195354-dda9879d-6b80-462a-b192-b753f5e8a057.png)
 
 # Aircraft RCS and IR Values
 
 Values gathered from https://github.com/Quaggles/dcs-lua-datamine
 
+(Click image for fullscreen)
 ![image](https://user-images.githubusercontent.com/8382945/210195363-d8803e4b-ce1d-440c-89a6-6f863acd3d22.png)
