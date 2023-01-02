@@ -28,7 +28,7 @@ Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extr
 
 * After my last chart but prior to DCS 2.8 the Mirage 2000C radar had a minor reduction of detection range. This is most noticeable in the RWS Unfiltered (3-6nmi reduction)
 
-![Aircraft Radar Detection Ranges](Aircraft%20Radar%20Detection%20Ranges/Quaggles%20Aircraft%20Radar%20Detection%20Ranges%202.8.0.32066.png)
+![image](https://user-images.githubusercontent.com/8382945/210195335-8f7fad97-9655-4405-be0b-913922ea386a.png)
 
 # Aircraft Radar Lookdown Detection Penalties
 
@@ -40,10 +40,10 @@ All ED modules have a massive penalty that will come into effect around 1.5° an
 
 JF-17 also has a pretty sharp penalty in RWS HPRF past 2.5° dropping detection range by ~20% and a minor MPRF penalty that's only noticeable past 7.5°, Velocity Scan has no penalties. Most other modules have either 0 or minor penalties that won't be particularly noticeable in real world gameplay.
 
-![Aircraft Radar Detection Ranges](Aircraft%20Radar%20Lookdown%20Penalties/Quaggles%20Aircraft%20Radar%20Lookdown%20Detection%20Penalties%202.7.16.28157.png)
+![image](https://user-images.githubusercontent.com/8382945/210195354-dda9879d-6b80-462a-b192-b753f5e8a057.png)
 
 # Aircraft RCS and IR Values
 
 Values gathered from https://github.com/Quaggles/dcs-lua-datamine
 
-![Aircraft Radar Detection Ranges](Aircraft%20RCS%20and%20IR%20Values/Quaggles%20Aircraft%20RCS%20and%20IR%20Values%202.8.0.33006.png)
+![image](https://user-images.githubusercontent.com/8382945/210195363-d8803e4b-ce1d-440c-89a6-6f863acd3d22.png)
