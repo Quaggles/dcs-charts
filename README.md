@@ -4,6 +4,14 @@ A central repository for all of my DCS charts, if you want notifications when ne
 
 ![image](https://user-images.githubusercontent.com/8382945/210178949-51f73346-8842-42b4-ae86-75b22b656757.png)
 
+## Table of Contents
+
+[Aircraft Radar Detection Ranges](https://github.com/Quaggles/dcs-charts#aircraft-radar-detection-ranges)
+
+[Aircraft Radar Lookdown Detection Penalties](https://github.com/Quaggles/dcs-charts#aircraft-radar-lookdown-detection-penalties)
+
+[Aircraft RCS and IR Values](https://github.com/Quaggles/dcs-charts#aircraft-rcs-and-ir-values)
+
 # Aircraft Radar Detection Ranges
 
 ## Chart Description/Methodology
@@ -12,7 +20,7 @@ A chart showing the detection ranges of all air to air radars in DCS, all values
 
 Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extra level of complication, to measure those I have an [array of 10 aircraft flying directly towards me](https://cdn.discordapp.com/attachments/287928410687406080/1035943238256836628/unknown.png) while I'm in active pause, as they get closer I wait until I detect 1%, 50% and 100% of jets per sweep and record those ranges. All target aircraft have no payload/stores and fly at an aspect angle of 180 degrees (Directly head to head)
 
-## Change Summary
+## Changelog/Summary
 
 * F-15C radar correction is in 🎉 In RWS HPRF it has gained over 20nmi range which now puts it just shy of the F-14 Tomcat's RWS
 
@@ -24,7 +32,7 @@ Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extr
 
 # Aircraft Radar Lookdown Detection Penalties
 
-## Change Summary
+## Changelog/Summary
 
 There has been a lot of discussion about lookdown penalties recently so I thought I'd test it all and share my results so the discussion goes beyond anecdotal experiences
 
