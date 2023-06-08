@@ -24,6 +24,8 @@ Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extr
 
 * Phase 1 of the F/A-18C and F-16C radar reworks is in 🎉 Lookdown penalties have been 100% removed for the Hornet and Viper, STT and track mechanics are reworked you can STT sooner that you could before and track files build faster
 
+* Velocity Search in the F/A-18C can only be accessed by hovering the TDC over the radar mode text at PB5 then using TDC depress on "VS", this is the correct behaviour, it is no longer in the pushbutton press rotation like was shown in Wags video
+
 In the chart test conditions:
 
 ### F/A-18C:
