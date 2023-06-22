@@ -22,29 +22,15 @@ Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extr
 
 ## Changelog/Summary DCS 2.8.6
 
-* Phase 1 of the F/A-18C and F-16C radar reworks is in 🎉 Lookdown penalties have been 100% removed for the Hornet and Viper, STT and track mechanics are reworked you can STT sooner that you could before and track files build faster
+* The F-15E has been added. It has a monster of a radar, in my opinion in RWS/TWS it's the most performant radar ingame in the types of situations you will commonly encounter, the Tomcat slightly beats it out in PD-STT but that is a somewhat niche radar mode and you can't PD-STT from that range.
 
-* Velocity Search in the F/A-18C can only be accessed by hovering the TDC over the radar mode text at PB5 then using TDC depress on "VS", this is the correct behaviour, it is no longer in the pushbutton press rotation like was shown in Wags video
+* Remember the chart represents ranges against a target with no stores attached, the F-15E and Mirage 2000C increase the target RCS when stores are added increasing detection range. If you fly against fighters loaded with just 6 air to air missiles the detection range can increase by 10nmi or more.
 
-In the chart test conditions:
-
-### F/A-18C:
-
-* Velocity Search reaches 68nmi
-
-* RWS HPRF increased from 38nmi to 55nmi
-
-* RWS MPRF reduced from 36nmi to 28nmi
-
-### F-16C:
-
-* VSR reaches 41nmi
-
-* RWS reduced from 45nmi to 37nmi
+* NCTR ranges have been added to the chart, the F-15E can NCTR in STT from at least twice the range of the F-15C, Hornet and Viper. Note the F-15E seems to have no NCTR range limit in TWS.
 
 (Click image for fullscreen)
 
-![image](https://raw.githubusercontent.com/Quaggles/dcs-charts/master/Aircraft%20Radar%20Detection%20Ranges/Quaggles%20Aircraft%20Radar%20Detection%20Ranges%202.8.6.41066.png)
+![image](https://raw.githubusercontent.com/Quaggles/dcs-charts/master/Aircraft%20Radar%20Detection%20Ranges/Quaggles%20Aircraft%20Radar%20Detection%20Ranges%202.8.6.41363.png)
 
 # Aircraft Radar Lookdown Detection Penalties
 
