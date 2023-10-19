@@ -20,17 +20,15 @@ A chart showing the detection ranges of all air to air radars in DCS, all values
 
 Modules that model Probability of Detection (Mirage 2000C and JF-17) add an extra level of complication, to measure those I have an [array of 10 aircraft flying directly towards me](https://cdn.discordapp.com/attachments/287928410687406080/1035943238256836628/unknown.png) while I'm in active pause, as they get closer I wait until I detect 1%, 50% and 100% of jets per sweep and record those ranges. All target aircraft have no payload/stores and fly at an aspect angle of 180 degrees (Directly head to head)
 
-## Changelog/Summary DCS 2.8.6
+## Changelog/Summary DCS 2.9.0
 
-* The F-15E has been added. It has a monster of a radar, in my opinion in RWS/TWS it's the most performant radar ingame in the types of situations you will commonly encounter, the Tomcat slightly beats it out in PD-STT but that is a somewhat niche radar mode and you can't PD-STT from that range.
+* F/A-18C and F-16C have had a huge radar overhaul this patch, they now feature PD (Probability of Detection), range resolution and atmospheric propagation loss. ***In practice you will initially detect targets at significantly longer ranges than in 2.8 but they will have to get closer to form stable track files on them.*** For example in 2.9 the Hornet can get an RWS low probability detection at 100nmi now compared to in DCS 2.8 where a reliable detection that was first visible at 55nmi.
 
-* Remember the chart represents ranges against a target with no stores attached, the F-15E and Mirage 2000C increase the target RCS when stores are added increasing detection range. If you fly against fighters loaded with just 6 air to air missiles the detection range can increase by 10nmi or more.
-
-* NCTR ranges have been added to the chart, the F-15E can NCTR in STT from at least twice the range of the F-15C, Hornet and Viper. Note the F-15E seems to have no NCTR range limit in TWS.
+* Both aircraft have a very large spread in probability of detection, more than any other module currently ingame. This can result in track files being dropped easily if you have a large scan zone or they are at the edge of your detection range, you may need to reduce your scan volumes significantly or use STT instead to maintain reliable tracks.
 
 (Click image for fullscreen)
 
-![image](https://raw.githubusercontent.com/Quaggles/dcs-charts/master/Aircraft%20Radar%20Detection%20Ranges/Quaggles%20Aircraft%20Radar%20Detection%20Ranges%202.8.6.41363.png)
+![image](https://raw.githubusercontent.com/Quaggles/dcs-charts/master/Aircraft%20Radar%20Detection%20Ranges/Quaggles%20Aircraft%20Radar%20Detection%20Ranges%202.9.0.46801.png)
 
 # Aircraft Radar Lookdown Detection Penalties
 
